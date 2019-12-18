@@ -40,13 +40,6 @@ header {
    overflow: hidden;
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-   header {
-      width: 50%;
-   }
- }
-
 /* vertically center banner section */
 header:before {
    content: '';
