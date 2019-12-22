@@ -1008,10 +1008,6 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
-/* Go down button */
-.icon-down-circle {
-   background-color: #3b403f;
-}
 
 .info-list h5{
    color: #FFFFFF;
