@@ -1023,7 +1023,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .LI-profile-badge {
-   top: 70rem;
+   bottom: 0rem;
    position: fixed;
    z-index: 100000; 
 }
