@@ -1022,3 +1022,14 @@ footer .social-links li:first-child { margin-left: 0; }
    list-style: inside;
 }
 
+.LI-profile-badge {
+   top: 70rem;
+   position: fixed;
+   z-index: 100000; 
+}
+
+.LI-badge-container-horizontal-dark,
+.LI-badge-container-horizontal-light {
+   text-align: left;
+}
+
