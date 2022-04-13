@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Demo</title>
+</head>
+<body>
+	<div id="demo">
+		<p> The flow comes here. changed to patients </p>
+	</div>
+		
+	<script src="https://scheduler-amgenpatientservices.cs36.force.com/RepathaFRSScheduler/lightning/lightning.out.js"></script>
+
+	<script>
+		$Lightning.use("runtime_appointmentbooking:lightningOutGuest",
+		function() { // Callback once framework and app load
+		$Lightning.createComponent(
+		"lightning:flow", // top-level component of your app
+		{ }, // attributes to set on the component when created
+		"demo", // the DOM location to insert the component
+		function(component) { // API name of the Flow
+		component.startFlow("Repatha_Scheduler_Inbound_Guest_New_Appointment");
+		}
+		);
+		}, 'https://scheduler-amgenpatientservices.cs36.force.com/RepathaFRSScheduler' // Site endpoint
+		);
+		</script>
+
+</body>
+</html>
